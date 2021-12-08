@@ -6,8 +6,8 @@
 /* eslint-disable react/no-this-in-sfc */
 /* eslint-disable react/destructuring-assignment */
 import React, { useState } from 'react';
-import { KEYS } from './constants';
-import styles from './App.module.css';
+import { KEYS } from '../../constants';
+import styles from '../../App.module.css';
 
 // eslint-disable-next-line react/no-unused-prop-types
 const TodoItem = (props: {

@@ -14,8 +14,8 @@ import {
   clearCompleted
 } from './utils';
 import styles from './App.module.css';
-import TodoItem from './todoItem';
-import TodoFooter from './footer';
+import TodoItem from './components/todoItem/todoItem';
+import TodoFooter from './components/footer/footer';
 
 // eslint-disable-next-line @typescript-eslint/explicit-module-boundary-types
 const App = () => {
@@ -116,7 +116,7 @@ const App = () => {
     );
   });
 
-  const activeTodoCount = todoList.filter((todo: ITodo) => !todo?.completed);
+  const activeTodoCount = todoList?.filter((todo: ITodo) => !todo?.completed);
 
   const completedCount = todoList?.length - activeTodoCount.length;
 

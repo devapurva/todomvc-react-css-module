@@ -3,8 +3,8 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 /* eslint-disable react/button-has-type */
 import * as React from 'react';
-import { TODOS } from './constants';
-import { pluralize } from './utils';
+import { TODOS } from '../../constants';
+import { pluralize } from '../../utils';
 import styles from './Footer.module.css';
 
 interface ITodoFooterProps {
