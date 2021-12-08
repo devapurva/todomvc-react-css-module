@@ -1,6 +1,28 @@
-# React typescript starter kit
+# TODOMVC in React with CSS Modules
 
-React typescript starter kit with ESLint, prettier and husky configurations.
+This is the sample project based on [TODOMVC](https://todomvc.com/examples/vanillajs/#/) built using `React` & `CSS Modules`.
+
+## Prerequisite
+
+1. `Node: V14+`
+
+Note: Project has been setup using run `npm run eject` giving you the full access to edit configuration files. It will also show all the supporting packages and it's version in package.json.
+
+## Run this code locally,
+
+Follow the below steps to run this project locally,
+
+1. `git clone https://github.com/devapurva/todomvc-react-css-module.git`
+2. `npm install`
+3. `npm start`
+
+### `npm start`
+
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
 
 ## Available Scripts
 
@@ -13,6 +35,13 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
+
+### `npm run lint`
+
+Runs the tsconfig along with eslint checks.
+You will be able to see any typescript and eslint errors in the terminal.
+
+You can run `npm run lint-fix` to fix the fixable issues.
 
 ### `npm test`
 
@@ -28,14 +57,6 @@ The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run lint`
-
-Check code linting
-
-### `npm run lint-fix`
-
-Fix code linting
 
 ## Learn More
 
