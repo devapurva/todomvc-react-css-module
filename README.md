@@ -2,6 +2,8 @@
 
 This is the sample project based on [TODOMVC](https://todomvc.com/examples/vanillajs/#/) built using `React` & `CSS Modules`.
 
+[![TODOMVC][todomvc-react-css-module]](https://user-images.githubusercontent.com/45891712/145302252-48255b19-04ab-4c53-8d31-9f5d925066e7.mov)
+
 ## Prerequisite
 
 1. `Node: V14+`
