@@ -53,7 +53,7 @@ const App = () => {
   const toggleAll = (event: React.FormEvent) => {
     const { target }: any = event;
     const { checked } = target;
-    const list = toggleList(checked);
+    const list = toggleList(checked, todoList);
     setTodoList(list);
   };
 

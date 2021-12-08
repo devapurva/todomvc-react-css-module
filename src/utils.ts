@@ -60,16 +60,13 @@ export function concateTodo(title: string, todoList: Array<ITodo>) {
   return list;
 }
 
-export function toggleList(checked: boolean) {
-  let list;
-  if (getList) {
-    list = JSON.parse(getList);
-    list = list.map((todo: any) => {
-      return { ...todo, completed: checked };
-    });
-  }
-
-  return storeData('todo-list', list);
+export function toggleList(checked: boolean, todoList: Array<ITodo>) {
+  let list = [...todoList];
+  list = list.map((todo: any) => {
+    return { ...todo, completed: checked };
+  });
+  storeData('todo-list', getList);
+  return list;
 }
 
 export function toggleElement(element: ITodo, todoList: Array<ITodo>) {
